@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<suite name="Suite">
+    <test name="Get All Users">
+        <parameter name="Data" value=""/>
+        <classes>
+            <class name="com.spotify.oauth2.tests.GetRequest"/>
+        </classes>
+    </test>
+    <test name="Get Single User">
+        <parameter name="Data" value=""/>
+        <classes>
+            <class name="com.spotify.oauth2.tests.GetRequest_Single"/>
+        </classes>
+    </test>
+    <test name="Create a New User">
+        <parameter name="Data" value=""/>
+        <classes>
+            <class name="com.spotify.oauth2.tests.PostRequest"/>
+        </classes>
+    </test>
+    <test name="Update User Details">
+        <parameter name="Data" value=""/>
+        <classes>
+            <class name="com.spotify.oauth2.tests.PutRequestTest"/>
+        </classes>
+    </test>
+    <test name="Partial Update User Details">
+        <parameter name="Data" value=""/>
+        <classes>
+            <class name="com.spotify.oauth2.tests.PatchRequestTest"/>
+        </classes>
+    </test>
+</suite>
